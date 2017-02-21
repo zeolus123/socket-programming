@@ -16,5 +16,5 @@ modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
 #printing the modified decoded message
 print(modifiedMessage.decode())
 
-#closing the socket
+#closing socket
 clientSocket.close()
